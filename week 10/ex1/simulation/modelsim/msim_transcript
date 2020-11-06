@@ -1,0 +1,64 @@
+# Reading D:/intelfgpa/modelsim_ase/tcl/vsim/pref.tcl
+# do half_adder_run_msim_gate_verilog.do
+# if {[file exists gate_work]} {
+# 	vdel -lib gate_work -all
+# }
+# vlib gate_work
+# vmap work gate_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 10.5b Lib Mapping Utility 2016.10 Oct  5 2016
+# vmap work gate_work 
+# Copying D:/intelfgpa/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vlog -vlog01compat -work work +incdir+. {half_adder.vo}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 21:25:38 on Nov 05,2020
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+." half_adder.vo 
+# -- Compiling module half_adder
+# -- Compiling module hard_block
+# 
+# Top level modules:
+# 	half_adder
+# End time: 21:25:38 on Nov 05,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vlog -vlog01compat -work work +incdir+C:/CA/week\ 10/ex1 {C:/CA/week 10/ex1/half_adder.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 21:25:38 on Nov 05,2020
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/CA/week 10/ex1" C:/CA/week 10/ex1/half_adder.v 
+# -- Compiling module half_adder
+# 
+# Top level modules:
+# 	half_adder
+# End time: 21:25:38 on Nov 05,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/CA/week\ 10/ex1 {C:/CA/week 10/ex1/testbench.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 21:25:38 on Nov 05,2020
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/CA/week 10/ex1" C:/CA/week 10/ex1/testbench.v 
+# -- Compiling module testbench
+# 
+# Top level modules:
+# 	testbench
+# End time: 21:25:38 on Nov 05,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps +transport_int_delays +transport_path_delays -L altera_ver -L altera_lnsim_ver -L fiftyfivenm_ver -L gate_work -L work -voptargs="+acc"  testbench
+# vsim -t 1ps "+transport_int_delays" "+transport_path_delays" -L altera_ver -L altera_lnsim_ver -L fiftyfivenm_ver -L gate_work -L work -voptargs=""+acc"" testbench 
+# Start time: 21:25:38 on Nov 05,2020
+# Loading work.testbench
+# Loading work.half_adder
+# 
+# do C:/CA/week 10/ex1/Tcl_script.tcl
+# ** Error: Cannot open macro file: C:/CA/week
+# Error in macro ./half_adder_run_msim_gate_verilog.do line 15
+# Cannot open macro file: C:/CA/week
+#     while executing
+# "do C:/CA/week 10/ex1/Tcl_script.tcl"
+run -all
+# a= 0 b = 1 sum = 1 carry = 0
+# a= 1 b = 0 sum = 1 carry = 0
+# a= 0 b = 0 sum = 0 carry = 0
+# a= 1 b = 1 sum = 0 carry = 1
+# End time: 21:26:32 on Nov 05,2020, Elapsed time: 0:00:54
+# Errors: 3, Warnings: 0
