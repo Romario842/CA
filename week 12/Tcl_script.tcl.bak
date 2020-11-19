@@ -1,0 +1,3 @@
+add wave sim:/ex1/*
+run -all
+wave zoom full
