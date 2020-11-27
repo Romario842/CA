@@ -1,0 +1,110 @@
+Info: Start Nativelink Simulation process
+
+========= EDA Simulation Settings =====================
+
+Sim Mode              :  Gate
+Family                :  max10
+Quartus root          :  d:/intelfgpa/quartus/bin64/
+Quartus sim root      :  d:/intelfgpa/quartus/eda/sim_lib
+Simulation Tool       :  modelsim-altera
+Simulation Language   :  verilog
+Simulation Mode       :  GUI
+Sim Output File       :  ex1.vo
+Sim SDF file          :  ex1__verilog.sdo
+Sim dir               :  simulation\modelsim
+
+=======================================================
+
+Info: Starting NativeLink simulation with ModelSim-Altera software
+Sourced NativeLink script d:/intelfgpa/quartus/common/tcl/internal/nativelink/modelsim.tcl
+Probing transcript
+ModelSim-Altera Info: # Reading D:/intelfgpa/modelsim_ase/tcl/vsim/pref.tcl
+ModelSim-Altera Info: # do ex1_run_msim_gate_verilog.do
+ModelSim-Altera Info: # if {[file exists gate_work]} {
+ModelSim-Altera Info: # 	vdel -lib gate_work -all
+ModelSim-Altera Info: # }
+ModelSim-Altera Info: # vlib gate_work
+ModelSim-Altera Info: # vmap work gate_work
+ModelSim-Altera Info: # Model Technology ModelSim - Intel FPGA Edition vmap 10.5b Lib Mapping Utility 2016.10 Oct  5 2016
+ModelSim-Altera Info: # vmap work gate_work 
+ModelSim-Altera Info: # Copying D:/intelfgpa/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+ModelSim-Altera Info: # Modifying modelsim.ini
+ModelSim-Altera Info: # 
+ModelSim-Altera Info: # vlog -vlog01compat -work work +incdir+. {ex1.vo}
+ModelSim-Altera Info: # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+ModelSim-Altera Info: # Start time: 07:36:37 on Nov 27,2020
+ModelSim-Altera Info: # vlog -reportprogress 300 -vlog01compat -work work "+incdir+." ex1.vo 
+ModelSim-Altera Info: # -- Compiling module ex1
+ModelSim-Altera Info: # -- Compiling module hard_block
+ModelSim-Altera Info: # 
+ModelSim-Altera Info: # Top level modules:
+ModelSim-Altera Info: # 	ex1
+ModelSim-Altera Info: # End time: 07:36:37 on Nov 27,2020, Elapsed time: 0:00:00
+ModelSim-Altera Info: # Errors: 0, Warnings: 0
+ModelSim-Altera Info: # 
+ModelSim-Altera Info: # vlog -vlog01compat -work work +incdir+C:/CA/week\ 13 {C:/CA/week 13/alu_decoder.v}
+ModelSim-Altera Info: # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+ModelSim-Altera Info: # Start time: 07:36:38 on Nov 27,2020
+ModelSim-Altera Info: # vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/CA/week 13" C:/CA/week 13/alu_decoder.v 
+ModelSim-Altera Info: # -- Compiling module alu_decoder
+ModelSim-Altera Info: # 
+ModelSim-Altera Info: # Top level modules:
+ModelSim-Altera Info: # 	alu_decoder
+ModelSim-Altera Info: # End time: 07:36:38 on Nov 27,2020, Elapsed time: 0:00:00
+ModelSim-Altera Info: # Errors: 0, Warnings: 0
+ModelSim-Altera Info: # vlog -vlog01compat -work work +incdir+C:/CA/week\ 13 {C:/CA/week 13/main_decoder.v}
+ModelSim-Altera Info: # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+ModelSim-Altera Info: # Start time: 07:36:38 on Nov 27,2020
+ModelSim-Altera Info: # vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/CA/week 13" C:/CA/week 13/main_decoder.v 
+ModelSim-Altera Info: # -- Compiling module main_decoder
+ModelSim-Altera Info: # 
+ModelSim-Altera Info: # Top level modules:
+ModelSim-Altera Info: # 	main_decoder
+ModelSim-Altera Info: # End time: 07:36:38 on Nov 27,2020, Elapsed time: 0:00:00
+ModelSim-Altera Info: # Errors: 0, Warnings: 0
+ModelSim-Altera Info: # vlog -vlog01compat -work work +incdir+C:/CA/week\ 13 {C:/CA/week 13/testbench.v}
+ModelSim-Altera Info: # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+ModelSim-Altera Info: # Start time: 07:36:38 on Nov 27,2020
+ModelSim-Altera Info: # vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/CA/week 13" C:/CA/week 13/testbench.v 
+ModelSim-Altera Info: # -- Compiling module testbench
+ModelSim-Altera Info: # 
+ModelSim-Altera Info: # Top level modules:
+ModelSim-Altera Info: # 	testbench
+ModelSim-Altera Info: # End time: 07:36:38 on Nov 27,2020, Elapsed time: 0:00:00
+ModelSim-Altera Info: # Errors: 0, Warnings: 0
+ModelSim-Altera Info: # vlog -vlog01compat -work work +incdir+C:/CA/week\ 13 {C:/CA/week 13/ex1.v}
+ModelSim-Altera Info: # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+ModelSim-Altera Info: # Start time: 07:36:38 on Nov 27,2020
+ModelSim-Altera Info: # vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/CA/week 13" C:/CA/week 13/ex1.v 
+ModelSim-Altera Info: # -- Compiling module ex1
+ModelSim-Altera Info: # 
+ModelSim-Altera Info: # Top level modules:
+ModelSim-Altera Info: # 	ex1
+ModelSim-Altera Info: # End time: 07:36:38 on Nov 27,2020, Elapsed time: 0:00:00
+ModelSim-Altera Info: # Errors: 0, Warnings: 0
+ModelSim-Altera Info: # 
+ModelSim-Altera Info: # vsim -t 1ps +transport_int_delays +transport_path_delays -L altera_ver -L altera_lnsim_ver -L fiftyfivenm_ver -L gate_work -L work -voptargs="+acc"  testbench
+ModelSim-Altera Info: # vsim -t 1ps "+transport_int_delays" "+transport_path_delays" -L altera_ver -L altera_lnsim_ver -L fiftyfivenm_ver -L gate_work -L work -voptargs=""+acc"" testbench 
+ModelSim-Altera Info: # Start time: 07:36:38 on Nov 27,2020
+ModelSim-Altera Info: # Loading work.testbench
+ModelSim-Altera Info: # Loading work.ex1
+ModelSim-Altera Info: # Loading work.main_decoder
+ModelSim-Altera Info: # Loading work.alu_decoder
+ModelSim-Altera Info: # 
+ModelSim-Altera Info: # add wave *
+ModelSim-Altera Info: # view structure
+ModelSim-Altera Info: # .main_pane.structure.interior.cs.body.struct
+ModelSim-Altera Info: # view signals
+ModelSim-Altera Info: # .main_pane.objects.interior.cs.body.tree
+ModelSim-Altera Info: # run -all
+ModelSim-Altera Info: # opcode = 0x00 RegWrite = 1 RegDst = 1 ALUSrc = 0 Branch = 0 MemWrite = 0 MemtoReg = 0 funct = 0x20 ALUControl = 010
+ModelSim-Altera Info: # opcode = 0x00 RegWrite = 1 RegDst = 1 ALUSrc = 0 Branch = 0 MemWrite = 0 MemtoReg = 0 funct = 0x22 ALUControl = 110
+ModelSim-Altera Info: # opcode = 0x00 RegWrite = 1 RegDst = 1 ALUSrc = 0 Branch = 0 MemWrite = 0 MemtoReg = 0 funct = 0x24 ALUControl = 000
+ModelSim-Altera Info: # opcode = 0x00 RegWrite = 1 RegDst = 1 ALUSrc = 0 Branch = 0 MemWrite = 0 MemtoReg = 0 funct = 0x25 ALUControl = 001
+ModelSim-Altera Info: # opcode = 0x00 RegWrite = 1 RegDst = 1 ALUSrc = 0 Branch = 0 MemWrite = 0 MemtoReg = 0 funct = 0x2a ALUControl = 111
+ModelSim-Altera Info: # opcode = 0x23 RegWrite = 1 RegDst = 0 ALUSrc = 1 Branch = 0 MemWrite = 0 MemtoReg = 1 funct = 0x2a ALUControl = 010
+ModelSim-Altera Info: # opcode = 0x2b RegWrite = 0 RegDst = 0 ALUSrc = 1 Branch = 0 MemWrite = 1 MemtoReg = 1 funct = 0x2a ALUControl = 010
+ModelSim-Altera Info: # opcode = 0x04 RegWrite = 0 RegDst = 0 ALUSrc = 0 Branch = 1 MemWrite = 0 MemtoReg = 1 funct = 0x2a ALUControl = 110
+ModelSim-Altera Info: # End time: 07:37:20 on Nov 27,2020, Elapsed time: 0:00:42
+ModelSim-Altera Info: # Errors: 0, Warnings: 0
+Info: NativeLink simulation flow was successful
